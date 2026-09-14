@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="ky">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Амина - кыз узатуу</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="page-shell">
+      <section class="invitation" aria-label="Аминанын кыз узатуу чакыруусу">
+        <article class="panel panel-left">
+          <div class="hero-photo" aria-hidden="true">
+          </div>
+
+          <div class="language-switch" aria-label="Тил тандоо">
+            <button type="button" class="active" data-lang="ky">КЫР</button>
+            <button type="button" data-lang="ru">РУС</button>
+            <button type="button" data-lang="tr">TUR</button>
+            <button type="button" data-lang="en">ENG</button>
+          </div>
+
+          <audio id="weddingSong" src="assets/anzhelika-erke-kyzym.mp3" preload="auto" autoplay loop playsinline></audio>
+
+          <header class="intro">
+            <h1>Амина</h1>
+            <p>Кыз узатуу</p>
+            <time datetime="2026-07-22">15.10.2026</time>
+          </header>
+
+          <div class="ornament ornament-top" aria-hidden="true"></div>
+
+          <section class="message-block">
+            <h2>Урматтуу<br />коноктор!</h2>
+            <p>
+              Бул күн биз үчүн өзгөчө маанилүү. Биз бул кубанычтуу көз ирмемди
+              эң жакын, сүйүктүү адамдардын жана досторубуздун курчоосунда
+              өткөргүбүз келет.
+            </p>
+          </section>
+
+          <div class="ornament ornament-middle" aria-hidden="true"></div>
+
+          <section class="date-block">
+            <h2>Той<br />салтанаты</h2>
+            <p>15-октябрь 2026 жыл</p>
+            <p>саат 16:00</p>
+            <div class="calendar" aria-label="Октябрь айынын календары">
+               <div> </div>
+              <div> </div>
+              <div> </div>
+              <div>1</div>
+              <div>2</div>
+              <div>3</div>
+              <div>4</div>
+              <div>5</div>
+              <div>6</div>
+              <div>7</div>
+              <div>8</div>
+              <div>9</div>
+              <div>10</div>
+              <div>11</div>
+              <div>12</div>
+              <div>13</div>
+              <div>14</div>
+              <div class="event-day">15</div>
+              <div>16</div>
+              <div>17</div>
+              <div>18</div>
+              <div>19</div>
+              <div>20</div>
+              <div>21</div>
+              <div>22</div>
+              <div>23</div>
+              <div>24</div>
+              <div>25</div>
+              <div>26</div>
+              <div>27</div>
+              <div>28</div>
+              <div>29</div>
+              <div>30</div>
+              <div>31</div>
+            </div>
+          </section>
+        </article>
+
+        <article class="panel panel-right">
+          <section class="venue-block">
+            <h2>Мекен-жайыбыз:</h2>
+            <h3>Соно</h3>
+            <p>рестораны, Каракол шаары</p>
+            <div class="map-actions">
+              <a
+                class="map-button map-button-google"
+                href="https://maps.app.goo.gl/2jm1KEzeR2wNL2BV7"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Картадан<br />кароо
+              </a>
+              <a
+                class="map-button map-button-2gis"
+                href="https://2gis.kg/bishkek/geo/70000001057724317"
+                target="_blank"
+                rel="noreferrer"
+              >
+                2ГИСтен<br />кароо
+              </a>
+            </div>
+          </section>
+
+          <section class="countdown-block">
+            <h2>Тойго чейин:</h2>
+            <div class="countdown" aria-live="polite">
+              <div class="time-part">
+                <strong id="days">00</strong>
+                <span>күн</span>
+              </div>
+              <div class="time-part">
+                <strong id="hours">00</strong>
+                <span>саат</span>
+              </div>
+              <div class="time-part">
+                <strong id="minutes">00</strong>
+                <span>мүнөт</span>
+              </div>
+              <div class="time-part">
+                <strong id="seconds">00</strong>
+                <span>секунд</span>
+              </div>
+            </div>
+          </section>
+
+          <section class="rsvp-block">
+            <h2>Катышуу</h2>
+            <p>Катышууңузду WhatsApp аркылуу ырастап коюуну өтүнөбүз</p>
+
+            <form id="rsvpForm">
+              <label for="guestName">Аты-жөнүңүздү жазыңыз</label>
+              <input id="guestName" name="guestName" type="text" placeholder="Мисалы: Айбек-Айдана" required />
+
+              <label for="guestCount">Конок саны</label>
+              <select id="guestCount" name="guestCount" required>
+                <option value="1" selected>1 конок</option>
+                <option value="2">2 конок</option>
+                <option value="3">3 конок</option>
+                <option value="4">4 конок</option>
+                <option value="5+">5 же андан көп</option>
+              </select>
+
+              <fieldset>
+                <legend>Катышууңуз</legend>
+                <label>
+                  <input type="radio" name="attendance" value="Албетте, келем!" required />
+                  <span>Албетте, келем!</span>
+                </label>
+                <label>
+                  <input type="radio" name="attendance" value="Тилекке каршы, келе албайм!" />
+                  <span>Тилекке каршы, келе албайм!</span>
+                </label>
+              </fieldset>
+
+              <label for="wishText">Каалоо-тилек, билдирүү</label>
+              <textarea
+                id="wishText"
+                name="wishText"
+                placeholder="Каалоо-тилегиңизди же билдирүүңүздү жазыңыз"
+              ></textarea>
+
+              <button class="submit-button" type="submit">WhatsApp аркылуу жөнөтүү</button>
+              <p class="form-status" id="formStatus" role="status"></p>
+            </form>
+          </section>
+
+          <footer class="closing-block">
+            <p>
+              Терең урматтоо менен,<br />
+              Аминанын үй-бүлөсү<br /><br />
+              Биз сизди майрамыбызда көрүүгө абдан кубанычтабыз!
+            </p>
+          </footer>
+        </article>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
