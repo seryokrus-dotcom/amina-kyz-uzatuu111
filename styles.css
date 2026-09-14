@@ -105,7 +105,7 @@ textarea {
   position: absolute;
   width: 180px;
   height: 260px;
-  background: url("assets/ornament11.png") center / contain no-repeat;
+  background: url("ornament11.png") center / contain no-repeat;
   opacity: 0.34;
   pointer-events: none;
 }
@@ -141,7 +141,7 @@ textarea {
   margin: 0 -34px 0;
   background:
     linear-gradient(180deg, rgba(255, 253, 249, 0.28) 0%, rgba(255, 253, 249, 0.88) 78%, #fffdf9 100%),
-    url("assets/photo1.png") center top / cover no-repeat;
+    url("photo1.png") center top / cover no-repeat;
 }
 
 .language-switch {
@@ -377,7 +377,7 @@ textarea {
   width: 132px;
   height: 132px;
   margin: 52px auto;
-  background: url("assets/ornament.svg") center / contain no-repeat;
+  background: url("ornament.svg") center / contain no-repeat;
   opacity: 0.3;
   animation: ornamentBreath 7s ease-in-out infinite;
 }
