@@ -551,7 +551,7 @@ function applyLanguage(language) {
 
 const form = document.getElementById("rsvpForm");
 const formStatus = document.getElementById("formStatus");
-const whatsAppPhone = "996755626866";
+const whatsAppPhone = "996705092102";
 
 setupSignatureTitle();
 setupPetals();
