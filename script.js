@@ -148,7 +148,7 @@ const translations = {
     introSubtitle: "Проводы невесты",
     messageTitle: "Уважаемые<br />гости!",
     messageFirst:
-      "Этот день особенно важен для нас. Мы хотим провести этот радостный момент в кругу самых близких, любимых людей и друзей.",
+      "Этот день особенно важен для нас. Мы хотим провести этот радостный момент в кругу самых близких, любимых людей и друзей. Хозяева торжества: Сталбек, Адилет",
     dateTitle: "Торжество",
     dateText: "15 октября 2026 года",
     timeText: "в 16:00",
@@ -202,7 +202,7 @@ const translations = {
     introSubtitle: "Gelin uğurlama",
     messageTitle: "Değerli<br />misafirler!",
     messageFirst:
-      "Bu gün bizim için çok özel ve anlamlı. Bu mutlu anı en yakınlarımız, sevdiklerimiz ve dostlarımızın arasında geçirmek istiyoruz.",
+      "Bu gün bizim için çok özel ve anlamlı. Bu mutlu anı en yakınlarımız, sevdiklerimiz ve dostlarımızın arasında geçirmek istiyoruz. Davet sahipleri: Stalbek, Adilet",
     dateTitle: "Tören",
     dateText: "15 Ekim 2026",
     timeText: "saat 16:00",
@@ -256,7 +256,7 @@ const translations = {
     introSubtitle: "Bride send-off",
     messageTitle: "Dear<br />guests!",
     messageFirst:
-      "This day is especially meaningful to us. We would love to share this joyful moment surrounded by our closest loved ones and friends.",
+      "This day is especially meaningful to us. We would love to share this joyful moment surrounded by our closest loved ones and friends. Hosts of the celebration: Stalbek, Adilet",
     dateTitle: "Celebration",
     dateText: "October 15, 2026",
     timeText: "at 16:00",
