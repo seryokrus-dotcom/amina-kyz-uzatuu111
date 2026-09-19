@@ -143,8 +143,8 @@ textarea {
     linear-gradient(180deg, rgba(255, 253, 249, 0.28) 0%, rgba(255, 253, 249, 0.88) 78%, #fffdf9 100%),
     url("photo1.png") center top / cover no-repeat;
 }
-.intro .hosts {
-   margin-top: 18px !important;
+.intro-hosts {
+  margin-top: 18px !important;
   color: var(--muted);
   font-family: var(--serif-font);
   font-size: 17px !important;
