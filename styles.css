@@ -144,11 +144,10 @@ textarea {
     url("photo1.png") center top / cover no-repeat;
 }
 .intro-hosts {
-  margin-top: 18px !important;
+  margin-top: 10px !important;
   color: var(--muted);
   font-family: var(--serif-font);
   font-size: 17px !important;
-  font-weight: 400;
   line-height: 1.4;
   letter-spacing: 0.3px;
   text-transform: none !important;
