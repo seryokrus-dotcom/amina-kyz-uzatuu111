@@ -92,6 +92,7 @@ const translations = {
     musicPromptText: "Телефондо үн чыгышы үчүн бир жолу басыңыз",
     songLabel: "Ырды иштетүү",
     introSubtitle: "Кыз узатуу",
+    introHosts: "Той ээлери: Сталбек, Адилет",
     messageTitle: "Урматтуу<br />коноктор!",
     messageFirst:
       "Бул күн биз үчүн өзгөчө маанилүү. Биз бул кубанычтуу көз ирмемди эң жакын, сүйүктүү адамдардын жана досторубуздун курчоосунда өткөргүбүз келет.",
@@ -146,6 +147,7 @@ const translations = {
     musicPromptText: "Нажмите один раз, чтобы включить звук",
     songLabel: "Включить песню",
     introSubtitle: "Проводы невесты",
+    introHosts: "Хозяева торжества: Сталбек, Адилет",
     messageTitle: "Уважаемые<br />гости!",
     messageFirst:
       "Этот день особенно важен для нас. Мы хотим провести этот радостный момент в кругу самых близких, любимых людей и друзей.",
@@ -200,6 +202,7 @@ const translations = {
     musicPromptText: "Sesi açmak için bir kez dokunun",
     songLabel: "Şarkıyı aç",
     introSubtitle: "Gelin uğurlama",
+    introHosts: "Tören sahipleri: Stalbek, Adilet",
     messageTitle: "Değerli<br />misafirler!",
     messageFirst:
       "Bu gün bizim için çok özel ve anlamlı. Bu mutlu anı en yakınlarımız, sevdiklerimiz ve dostlarımızın arasında geçirmek istiyoruz.",
@@ -254,6 +257,7 @@ const translations = {
     musicPromptText: "Tap once to enable sound",
     songLabel: "Play song",
     introSubtitle: "Bride send-off",
+    introHosts: "Hosts of celebration: Stalbek, Adilet",
     messageTitle: "Dear<br />guests!",
     messageFirst:
       "This day is especially meaningful to us. We would love to share this joyful moment surrounded by our closest loved ones and friends.",
@@ -508,6 +512,7 @@ function applyLanguage(language) {
   updateSongButton();
   updateMusicPromptText();
   setText(".intro p", text.introSubtitle);
+  setText(".intro-hosts", text.introHosts);
   setHtml(".message-block h2", text.messageTitle);
   setText(".message-block p:nth-of-type(1)", text.messageFirst);
   setHtml(".date-block h2", text.dateTitle);
