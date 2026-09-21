@@ -122,7 +122,7 @@ const translations = {
     wishPlaceholder: "Каалоо-тилегиңизди же билдирүүңүздү жазыңыз",
     submitText: "WhatsApp аркылуу жөнөтүү",
     closingText:
-      "Терең урматтоо менен,<br />Аминанын үй-бүлөсү<br /><br />Биз сизди майрамыбызда көрүүгө абдан кубанычтабыз!",
+      "Терең урматтоо менен,<br />Аминанын үй-бүлөсү<br /><br />Бул өзгөчө күндү сиз менен бөлүшүү биз үчүн чоң кубаныч.",
     validationText: "Атыңызды, конок санын жана катышууңузду белгилеп коюңуз.",
     successText: "WhatsApp ачылды. Даяр билдирүүнү жөнөтүп коюңуз.",
     popupText: "WhatsApp ачылбаса, браузердин popup уруксатын текшериңиз.",
@@ -177,7 +177,7 @@ const translations = {
     wishPlaceholder: "Напишите пожелание или сообщение",
     submitText: "Отправить через WhatsApp",
     closingText:
-      "С глубоким уважением,<br />семья Амины<br /><br />Будем очень рады видеть вас на нашем празднике!",
+      "С глубоким уважением,<br />семья Амины<br /><br />Для нас большая радость разделить с вами этот особенный день.",
     validationText: "Введите имя, количество гостей и отметьте участие.",
     successText: "WhatsApp открыт. Отправьте готовое сообщение.",
     popupText: "Если WhatsApp не открылся, проверьте разрешение popup в браузере.",
@@ -232,7 +232,7 @@ const translations = {
     wishPlaceholder: "Dileğinizi veya mesajınızı yazınız",
     submitText: "WhatsApp ile gönder",
     closingText:
-      "Derin saygılarımızla,<br />Amina'nın ailesi<br /><br />Sizi bayramımızda görmekten büyük mutluluk duyarız!",
+      "Derin saygılarımızla,<br />Amina'nın ailesi<br /><br />Bu özel günü sizinle paylaşmak bizim için büyük bir mutluluk.",
     validationText: "Adınızı, misafir sayısını ve katılım durumunuzu belirtiniz.",
     successText: "WhatsApp açıldı. Hazır mesajı gönderebilirsiniz.",
     popupText: "WhatsApp açılmazsa tarayıcınızın popup iznini kontrol ediniz.",
@@ -287,7 +287,7 @@ const translations = {
     wishPlaceholder: "Write your wish or message",
     submitText: "Send via WhatsApp",
     closingText:
-      "With deep respect,<br />Amina's family<br /><br />We will be very happy to see you at our celebration!",
+      "With deep respect,<br />Amina's family<br /><br />It is a great joy for us to share this special day with you.",
     validationText: "Please enter your name, guest count, and attendance choice.",
     successText: "WhatsApp opened. Please send the prepared message.",
     popupText: "If WhatsApp did not open, please check your browser popup permission.",
