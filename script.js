@@ -81,7 +81,7 @@ let currentLanguage = "ky";
 
 const translations = {
   ky: {
-    documentTitle: "Амина - кыз узатуу",
+    documentTitle: "Амина — кыз узатуу",
     introName: "Амина",
     pageLabel: "Аминанын кыз узатуу чакыруусу",
     languageLabel: "Тил тандоо",
@@ -92,15 +92,14 @@ const translations = {
     musicPromptText: "Телефондо үн чыгышы үчүн бир жолу басыңыз",
     songLabel: "Ырды иштетүү",
     introSubtitle: "Кыз узатуу",
-    introHosts: "Той ээлери: Сталбек, Адилет",
     messageTitle: "Урматтуу<br />коноктор!",
     messageFirst:
-      "Бул күн биз үчүн өзгөчө маанилүү. Биз бул кубанычтуу көз ирмемди эң жакын, сүйүктүү адамдардын жана досторубуздун курчоосунда өткөргүбүз келет.",
+      "Бул күн биз үчүн маанилүү күндөрдүн бири. Биз бул кубанычтуу көз ирмемди эң жакын, сүйүктүү адамдардын курчоосунда өткөргүбүз келет.",
     dateTitle: "Той<br />салтанаты",
     dateText: "15-октябрь 2026 жыл",
     timeText: "саат 16:00",
     calendarLabel: "Октябрь айынын календары",
-    venueTitle: "Мекен-жайыбыз:",
+    venueTitle: "Дареги:",
     venueName: "«Соно»",
     venueAddress: "рестораны, Каракол шаары",
     mapText: "Картадан<br />кароо",
@@ -122,7 +121,7 @@ const translations = {
     wishPlaceholder: "Каалоо-тилегиңизди же билдирүүңүздү жазыңыз",
     submitText: "WhatsApp аркылуу жөнөтүү",
     closingText:
-      "Терең урматтоо менен,<br />Аминанын үй-бүлөсү<br /><br />Бул өзгөчө күндү сиз менен бөлүшүү биз үчүн чоң кубаныч.",
+      "Терең урматтоо менен,<br />Той ээлери: Сталбек, Адилет<br /><br />Бул өзгөчө күндү сиз менен бөлүшүү — биз үчүн чоң кубаныч.",
     validationText: "Атыңызды, конок санын жана катышууңузду белгилеп коюңуз.",
     successText: "WhatsApp ачылды. Даяр билдирүүнү жөнөтүп коюңуз.",
     popupText: "WhatsApp ачылбаса, браузердин popup уруксатын текшериңиз.",
@@ -136,7 +135,7 @@ const translations = {
     },
   },
   ru: {
-    documentTitle: "Амина - проводы невесты",
+    documentTitle: "Амина — проводы невесты",
     introName: "Амина",
     pageLabel: "Приглашение на проводы невесты Амины",
     languageLabel: "Выбор языка",
@@ -147,10 +146,10 @@ const translations = {
     musicPromptText: "Нажмите один раз, чтобы включить звук",
     songLabel: "Включить песню",
     introSubtitle: "Проводы невесты",
-    introHosts: "Хозяева торжества: Сталбек, Адилет",
+    // introHosts: "Хозяева торжества: Сталбек, Адилет",
     messageTitle: "Уважаемые<br />гости!",
     messageFirst:
-      "Этот день особенно важен для нас. Мы хотим провести этот радостный момент в кругу самых близких, любимых людей и друзей.",
+      "Этот день — один из самых важных для нас. Мы хотим провести этот радостный момент в кругу самых близких и дорогих нам людей",
     dateTitle: "Торжество",
     dateText: "15 октября 2026 года",
     timeText: "в 16:00",
@@ -177,13 +176,13 @@ const translations = {
     wishPlaceholder: "Напишите пожелание или сообщение",
     submitText: "Отправить через WhatsApp",
     closingText:
-      "С глубоким уважением,<br />семья Амины<br /><br />Для нас большая радость разделить с вами этот особенный день.",
+      "С глубоким уважением,<br />Хозяева торжества: Сталбек, Адилет<br /><br />Для нас большая радость — разделить с вами этот особенный день.",
     validationText: "Введите имя, количество гостей и отметьте участие.",
     successText: "WhatsApp открыт. Отправьте готовое сообщение.",
     popupText: "Если WhatsApp не открылся, проверьте разрешение popup в браузере.",
     whatsAppLines: {
       greeting: "Здравствуйте!",
-      title: "Ответ на проводы невесты Амины:",
+      title: "Ответ на приглашение на проводы невесты Амины",
       name: "Имя и фамилия",
       attendance: "Участие",
       guestCount: "Количество гостей",
@@ -191,7 +190,7 @@ const translations = {
     },
   },
   tr: {
-    documentTitle: "Amina - gelin uğurlama",
+    documentTitle: "Amina — gelin uğurlama",
     introName: "Amina",
     pageLabel: "Amina'nın gelin uğurlama davetiyesi",
     languageLabel: "Dil seçimi",
@@ -202,10 +201,10 @@ const translations = {
     musicPromptText: "Sesi açmak için bir kez dokunun",
     songLabel: "Şarkıyı aç",
     introSubtitle: "Gelin uğurlama",
-    introHosts: "Tören sahipleri: Stalbek, Adilet",
+    // introHosts: "Tören sahipleri: Stalbek, Adilet",
     messageTitle: "Değerli<br />misafirler!",
     messageFirst:
-      "Bu gün bizim için çok özel ve anlamlı. Bu mutlu anı en yakınlarımız, sevdiklerimiz ve dostlarımızın arasında geçirmek istiyoruz.",
+      "Bu gün bizim için önemli günlerden biri. Bu mutlu anı en yakınlarımız ve sevdiklerimizle birlikte geçirmek istiyoruz.",
     dateTitle: "Tören",
     dateText: "15 Ekim 2026",
     timeText: "saat 16:00",
@@ -232,7 +231,7 @@ const translations = {
     wishPlaceholder: "Dileğinizi veya mesajınızı yazınız",
     submitText: "WhatsApp ile gönder",
     closingText:
-      "Derin saygılarımızla,<br />Amina'nın ailesi<br /><br />Bu özel günü sizinle paylaşmak bizim için büyük bir mutluluk.",
+      "Derin saygılarımızla,<br />Tören sahipleri: Stalbek, Adilet<br /><br />Bu özel günü sizinle paylaşmak bizim için büyük bir mutluluktur.",
     validationText: "Adınızı, misafir sayısını ve katılım durumunuzu belirtiniz.",
     successText: "WhatsApp açıldı. Hazır mesajı gönderebilirsiniz.",
     popupText: "WhatsApp açılmazsa tarayıcınızın popup iznini kontrol ediniz.",
@@ -246,7 +245,7 @@ const translations = {
     },
   },
   en: {
-    documentTitle: "Amina - bride send-off",
+    documentTitle: "Amina — bride send-off",
     introName: "Amina",
     pageLabel: "Invitation to Amina's bride send-off",
     languageLabel: "Language selection",
@@ -257,10 +256,10 @@ const translations = {
     musicPromptText: "Tap once to enable sound",
     songLabel: "Play song",
     introSubtitle: "Bride send-off",
-    introHosts: "Hosts of celebration: Stalbek, Adilet",
+    // introHosts: "Hosts of celebration: Stalbek, Adilet",
     messageTitle: "Dear<br />guests!",
     messageFirst:
-      "This day is especially meaningful to us. We would love to share this joyful moment surrounded by our closest loved ones and friends.",
+      "This day is one of the most important days for us. We would like to spend this joyful moment surrounded by our closest and dearest loved ones.",
     dateTitle: "Celebration",
     dateText: "October 15, 2026",
     timeText: "at 16:00",
@@ -287,7 +286,7 @@ const translations = {
     wishPlaceholder: "Write your wish or message",
     submitText: "Send via WhatsApp",
     closingText:
-      "With deep respect,<br />Amina's family<br /><br />It is a great joy for us to share this special day with you.",
+      "With deep respect,<br />Hosts of celebration: Stalbek, Adilet<br /><br />It is a great joy for us to share this special day with you.",
     validationText: "Please enter your name, guest count, and attendance choice.",
     successText: "WhatsApp opened. Please send the prepared message.",
     popupText: "If WhatsApp did not open, please check your browser popup permission.",
