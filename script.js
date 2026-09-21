@@ -204,7 +204,7 @@ const translations = {
     // introHosts: "Tören sahipleri: Stalbek, Adilet",
     messageTitle: "Değerli<br />misafirler!",
     messageFirst:
-      "Bu gün bizim için önemli günlerden biri. Bu mutlu anı en yakınlarımız ve sevdiklerimizle birlikte geçirmek istiyoruz.",
+      "Bu gün bizim için önemli günlerden biridir. Bu mutlu anı en yakınlarımız ve sevdiklerimizle birlikte geçirmek istiyoruz.",
     dateTitle: "Tören",
     dateText: "15 Ekim 2026",
     timeText: "saat 16:00",
